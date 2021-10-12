@@ -1,0 +1,10 @@
+mutation($employer:EmployerParam ) {
+  createmployer(employer: $employer) {
+    id
+    firstName
+    lastName
+    middleName
+    employmentStatus
+    
+  }
+}
